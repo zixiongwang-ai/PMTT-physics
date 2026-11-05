@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "PMTT Physics"
+type: software
+version: 0.1.0
+date-released: 2026-11-04
+license: MIT
+authors:
+  - family-names: Wang
+    given-names: Zixiong
+  - family-names: Ma
+    given-names: Haiping
+preferred-citation:
+  type: article
+  title: "A Patch in a Static Image Can Explain Part of the Future"
+  authors:
+    - family-names: Wang
+      given-names: Zixiong
+    - family-names: Ma
+      given-names: Haiping
+  year: 2026

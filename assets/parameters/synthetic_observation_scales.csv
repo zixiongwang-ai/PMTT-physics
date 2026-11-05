@@ -1,0 +1,5 @@
+family,scale,uses_future
+Geometric,1.0,False
+Sensitivity,2.0,False
+Context,1.0,False
+SamplingMatched,1.0,False

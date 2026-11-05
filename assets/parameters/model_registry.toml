@@ -1,0 +1,19 @@
+# Official checkpoint identities used by the paper. Weights are not redistributed.
+
+[models.S]
+constructor = "vits16"
+checkpoint = "dinov3_vits16_pretrain_lvd1689m-08c60483.pth"
+bytes = 86531063
+feature_width = 384
+
+[models.B]
+constructor = "vitb16"
+checkpoint = "dinov3_vitb16_pretrain_lvd1689m-73cec8be.pth"
+bytes = 342860279
+feature_width = 768
+
+[models.L]
+constructor = "vitl16"
+checkpoint = "dinov3_vitl16_pretrain_lvd1689m-8aa4cbdd.pth"
+bytes = 1213050671
+feature_width = 1024

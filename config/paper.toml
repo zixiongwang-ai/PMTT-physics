@@ -1,0 +1,17 @@
+[protocol]
+seed = 20261103
+holdout_seed = 87261103
+observation_seed = 20261101
+source_seed = 20261102
+output_size = 224
+crop_side = 128
+synthetic_crop_side = 96
+minimum_common_points = 8
+points_per_state = 8
+future_offsets = [-6, -3, 3, 6]
+ranks = [1, 2, 4, 8]
+bootstrap_draws = 2000
+scalar_ridge = 0.001
+geometry_chunk = 64
+extraction_batch = 68
+fixed_forward_batch = true

@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmtt-physics"
+version = "0.1.0"
+description = "Patch-level local feature spaces for static-to-future physical representation"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Zixiong Wang"},
+  {name = "Haiping Ma"},
+]
+dependencies = [
+  "numpy==2.2.6",
+  "Pillow==12.3.0",
+  "scipy==1.15.3",
+  "torch==2.7.1",
+  "torchvision==0.22.1",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Image Processing",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[project.scripts]
+pmtt-physics = "pmtt_physics.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]

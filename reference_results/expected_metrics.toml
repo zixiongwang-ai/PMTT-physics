@@ -1,0 +1,26 @@
+# Reference values for quick reproduction checks. Values are proportions.
+
+[synthetic_new16_top4_tee]
+S = 0.3550
+B = 0.3254
+L = 0.2902
+
+[real_fixed_h1_top4_tee]
+S = 0.2410
+B = 0.2350
+L = 0.2758
+
+[real_full_B_top4_tee]
+h1 = 0.2303
+h4 = 0.2182
+
+[organization_new16_bounded_coverage]
+S = 0.4490
+B = 0.4136
+L = 0.3739
+
+[continuity_same_minus_same_video_similar]
+S_fixed = 0.2743
+B_fixed = 0.2913
+L_fixed = 0.2969
+B_full = 0.2583
